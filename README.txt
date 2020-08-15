@@ -1,0 +1,1 @@
+this project is focassed on reacreating the simplistic design of the inuit sign up page using forms
