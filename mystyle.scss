@@ -1,0 +1,120 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+header
+{
+    table 
+    {
+        float: right;
+        .text
+        {
+
+            vertical-align: top!important;
+            font-size: 12px;
+            a
+            {
+                text-decoration: none;
+                color: #2860fa;
+            }
+        }
+
+        form button
+        {
+            width: 100px;
+            height: 35px;
+            border-radius: 5px;
+            background-color: #2860fa;
+            border-color: rgb(44, 44, 44);
+            color: white;
+            font-size: 13px;
+            border-width: thin;
+        }
+    }
+    
+}
+
+section
+{
+    margin-left: auto;
+    margin-right: auto;
+    .sign_up
+    {
+        padding-top: 100px;
+        text-align: center;
+        .form-title
+        {
+            font-size: 25px;
+            color: rgb(58, 58, 58);
+        }
+        .everything-inuit
+        {
+            font-size: 15px;
+            color: rgb(58, 58, 58);
+            a
+            {
+                text-decoration: none;
+                color: #2860fa;
+            }
+        }
+        form
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            height: 675px;
+            background-color: white;
+            border-width: thin;
+            border-radius: 2px;
+            border-color: rgb(136, 136, 136);
+            border-style: solid;
+            .input-chunk
+            {
+                margin-top: 45px;
+            }
+            .phone-info
+            {
+                margin-top: 2px;
+                font-size: 10px;
+            }
+            .form-data
+            {
+                border-spacing: 10px;
+                margin-top: 10px;
+
+            }
+            label
+            {
+                margin-left: 35px;
+                display: block;
+                text-align: left;
+            }
+            input
+            {
+                width: 325px;
+                height: 27px;
+                border-radius: 3px;
+                border-width: thin;
+                text-align: left;
+                font-size: 15px;
+                color: rgb(58, 58, 58);
+
+            }
+            button
+            {
+                width: 325px;
+                height: 50px;
+                border: none;
+                background-color: #2860fa;
+                border-radius: 5px;
+                color: white;
+                font-size: 15px;
+            }
+            .terms-of-service
+            {
+                color: rgb(80, 80, 80);
+            }
+        }
+    }
+}

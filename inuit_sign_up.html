@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="mystyle.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +8,53 @@
     <title>Document</title>
 </head>
 <body>
-    <header></header>
-    <section></section>
+    <header>
+        <table>
+            <tr>
+                <td class="text">
+                    <strong>
+                        <p>Already have an Intuit account? <br> 
+                            <a href="https://stackoverflow.com/questions/14238153/aligning-image-to-the-top-of-a-table-cell" target="_blank">I forgot my User ID or Password </a>
+                        </p>
+                    </strong>
+                </td>
+                <td>
+                    <form action="/sign_in_page">
+                        <button type="submit">Sign In</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <section>
+        <div class="sign_up">
+            <h1><strong>INUIT</strong></h1>
+            <h3>MINT, QUICKBOOKS, TURBOTAX</h3>
+            <form action="/sign_up">
+                <p class="form-title"><strong>Create an Intuit <br> account</strong></p>
+                    <p class="everything-inuit">One account for everything Intuit, including Mint. <br> <a  href="randomlinl.com"><small>Learn More</small></a></p>
+                    <div class="input-chunk">
+                        <label for="email" class="form-data">Email Address </label>
+                        <input type="email" name="email" class="form-data" required>
+                    </div>
+                    <div class="input-chunk">
+                        <label for="phone-number" class="form-data">Phone number (recommended) </label>
+                        <input type="text" name="phone-number" class="form-data">
+                        <label for="phone-number" class="phone-info">Standard call, messaging or data rates may apply. </label>
+                    </div>
+                    <div class="input-chunk">
+                        <label for="password" class="form-data"><strong>Password </strong></label>
+                        <input type="password" name="password" class="form-data" required>
+                    </div>
+                    <div class="input-chunk">
+                        <button type="submit" class="form-data">Create account</button>
+                    </div>
+
+                    <p class="terms-of-service"><small><i>By clicking Create account, you agree to our <br> Terms and have read and acknowledge our Privacy <br> Statement.</i></small></p>
+            </form>
+        </div>
+        
+    </section>
 </body>
 </html>
